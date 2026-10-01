@@ -6,6 +6,16 @@ Notable changes to Drum Evaluator, newest first.
 
 ![The app on 2026-10-01](screenshots/2026-10-01.png)
 
+- **Dynamics feedback.** How evenly each note of the groove is played
+  across loops, compared only with its own repeats (the snare on 2 with
+  other snares on 2). Shown live under each note on the timeline.
+- **Plain-language summary.** Results now read like a teacher's notes:
+  how it went, timing in words, uneven notes by where they fall in the bar
+  ("snare ghost note on 2-a"), and one "Try next" suggestion. The detailed
+  numbers are behind a **Show details** button.
+- **Volume feedback per drum.** A checkbox on each drum's row turns its
+  volume feedback on or off. Cymbals start off, since their volume rarely
+  matters and would clutter the feedback.
 - **New click engine.** The metronome now plays directly through the sound
   card, timed to the exact sample. The click's own delay is compensated
   automatically, so calibration only has to measure the player and the pad.

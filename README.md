@@ -9,12 +9,13 @@ on, as you play.
 > giving feedback.
 
 ![Drum Evaluator after a play-along session: a timeline with a row per drum,
-each hit shown as a colored dot inside its timing window, and a session
-summary below](screenshots/2026-10-01.png)
+each hit shown as a colored dot inside its timing window, volume-consistency
+numbers under the snare notes, and the detailed session summary below](screenshots/2026-10-01.png)
 
 *After a 4-loop session on a syncopated groove: each dot is one hit, placed
 left or right of the beat by how early or late it was, and colored by how
-close it landed.*
+close it landed. The numbers under the snare notes show how evenly each
+note's volume was played across the loops.*
 
 ## What it does today
 
@@ -26,14 +27,18 @@ close it landed.*
   the beat they landed, in milliseconds.
 - **Timeline view.** A one-bar timeline with a row per drum shows where
   each hit landed against where it should have, loop by loop.
-- **Ghost notes.** Quiet and loud notes are told apart, so dynamics in a
-  groove are kept.
+- **Dynamics.** Checks how evenly you play each note of the groove from
+  loop to loop. Each note is only compared with its own repeats, so a ghost
+  note is judged as a ghost note and an accent as an accent. Volume feedback
+  can be switched off per drum (cymbals start off).
+- **Feedback in plain language.** After each session: how it went, your
+  timing and each drum in words, which notes weren't even, and one thing to
+  work on next. The full numbers are one click away.
 - **Latency calibration.** A short "hit any pad along with the click" test
   measures your setup's delay, so on-time playing scores as on time.
 - **Sample-accurate click.** The metronome is played directly through your
   sound card and placed to the exact sample.
-- **Session summary.** Totals, average timing, and how early or late you
-  tend to play per drum, saved after each session.
+- **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
 
