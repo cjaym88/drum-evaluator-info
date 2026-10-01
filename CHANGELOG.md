@@ -8,7 +8,11 @@ Notable changes to Drum Evaluator, newest first.
 
 - **Dynamics feedback.** How evenly each note of the groove is played
   across loops, compared only with its own repeats (the snare on 2 with
-  other snares on 2). Shown live under each note on the timeline.
+  other snares on 2), and whether ghost notes stay quiet and accents stand
+  out. Shown live under each note on the timeline.
+- **Works with any velocity curve.** Pads offer different curves for
+  turning hit strength into volume. Dynamics are judged in a way that gives
+  the same answer whichever curve your pad uses.
 - **Plain-language summary.** Results now read like a teacher's notes:
   how it went, timing in words, uneven notes by where they fall in the bar
   ("snare ghost note on 2-a"), and one "Try next" suggestion. The detailed
