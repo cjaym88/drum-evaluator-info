@@ -2,6 +2,36 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-05
+
+![The standalone metronome in 7/8, grouped 2+2+3](screenshots/2026-10-05-metronome.png)
+
+- **Standalone metronome.** A full metronome that works on its own, no
+  kit needed. Set the tempo with buttons, a slider, the arrow keys or tap
+  tempo. Use any time signature, add subdivisions from 8ths to
+  quintuplets and sextuplets, and dial in swing from 0% (straight) to
+  100%.
+- **Built-in click patterns.** 2/4 through 13/8 (odd meters ready-grouped,
+  e.g. 7/8 as 2+2+3 or 3+2+2), swing 8ths and 16ths,
+  son, rumba and bossa nova clave, and 3:2, 4:3 and 2:3 polyrhythms.
+- **Edit the click step by step.** Click any step to make it an accent,
+  normal, soft or silent. Your accents stay when you change the
+  subdivision. Tempo and step changes are heard right away;
+  a new time signature starts at the next bar line.
+- **Scoring checked against research.** The timing grades and the words
+  in the summary were compared with published studies of drummers'
+  timing. The current thresholds hold up: for example, "very steady"
+  matches the consistency of professional drummers. The comparison also
+  found two improvements now on the roadmap: judging each drum's
+  steadiness against its own feel (pros naturally play kick and snare a
+  touch ahead of the hi-hat), and fewer false misses at fast tempos.
+- **Plans for Mac, iPhone/iPad and Android.** The app is being organized
+  so one shared scoring engine runs on all four platforms, so the same
+  playing gets the same score everywhere.
+- **Known issue:** while the click plays, other apps can't use the same
+  sound output (no music or lesson videos alongside). A fix is being
+  worked on.
+
 ## 2026-10-01
 
 ![The app on 2026-10-01](screenshots/2026-10-01.png)

@@ -40,30 +40,48 @@ across the loops. Below: the session summary in plain words.*
   measures your setup's delay, so on-time playing scores as on time.
 - **Sample-accurate click.** The metronome is played directly through your
   sound card and placed to the exact sample.
+- **Standalone metronome.** Use it on its own, no kit needed: tap tempo,
+  any time signature, subdivisions, swing (0-100%), and built-in
+  patterns from 2/4 to 13/8 (odd meters ready-grouped, e.g. 7/8 as
+  2+2+3 or 3+2+2), clave and polyrhythms. Click any step to accent it,
+  soften it or mute it.
 - **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
 
-**Works with:** Windows, plus any electronic kit or drum pad that sends MIDI
-over USB.
+![The standalone metronome in 7/8, grouped 2+2+3: a bar of steps whose
+height and color show accents, with the step being heard lit up](screenshots/2026-10-05-metronome.png)
+
+*The standalone metronome in 7/8, grouped 2+2+3, with 8th-note
+subdivisions. Taller boxes are louder; the white box is the click being
+heard.*
+
+**Works with:** Windows today, plus any electronic kit or drum pad that
+sends MIDI over USB. Mac, iPhone/iPad and Android versions are planned.
 
 ## Roadmap
 
 Plans, not promises. Order and scope may change.
 
 **Next up**
-- **Standalone metronome**: a full metronome you can use on its own, no
-  scoring needed.
-- **Custom click patterns**: build your own click (which steps sound,
-  accents, meter changes), and use it during scored practice too.
-- **Click that follows the pattern**: an option for the click to sound on
-  the groove's own notes instead of a fixed grid.
+- **Sharper scoring**: fewer false misses at fast tempos, steadiness
+  judged per drum against its own feel, and more reliable calibration.
+- **A single 0–100 accuracy score** per session and per drum.
+- **Play alongside other audio**: let music or lesson videos play while
+  the click is running.
 - **Pad "learn" mode**: hit a pad to assign it to a drum, no settings files.
 - **Saved kits**: switch between kits (e.g. a practice pad and a full
   e-kit), each remembering its own setup and calibration.
 
+**Metronome and click**
+- Save your own click patterns, with several bars and meter changes, and
+  use them during scored practice too.
+- Tempo trainer: speeds up a little every few bars.
+- Gap click: the click drops out for a few bars to test your inner time.
+- Click that follows the pattern: an option for the click to sound on
+  the groove's own notes instead of a fixed grid.
+
 **Practice and scoring**
-- A single 0–100 accuracy score per session and per drum.
 - Free-play mode: just play, and the app learns your groove and scores how
   consistent you are, with no pattern needed.
 - Practicing time-signature changes (e.g. 4 bars of 4/4, then 2 of 7/8).
@@ -79,9 +97,13 @@ Plans, not promises. Order and scope may change.
 - Light and dark mode.
 - Simpler, more guided calibration.
 
+**Platforms**
+- Mac, iPhone/iPad and Android versions alongside Windows, all sharing
+  one scoring engine, so the same playing gets the same score everywhere.
+
 **Later**
 - Acoustic drums via microphones.
-- A polished, installable app.
+- Polished, installable apps for all four platforms.
 
 See [CHANGELOG.md](CHANGELOG.md) for what's changed recently.
 
