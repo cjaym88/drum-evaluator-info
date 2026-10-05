@@ -64,6 +64,17 @@ against 3 and 4 evenly spaced pulses on two more tracks, each with its
 own sound. Taller boxes are louder; white boxes are the clicks being
 heard.*
 
+![The pattern detector after a session: a 2-bar groove found with confidence 1.00,
+every hit plotted on a grid of the pattern, and the plain-language summary
+below](screenshots/2026-10-05-pattern-detector.png)
+
+*The pattern detector after playing a 2-bar groove (snare 16ths, then
+hi-hat 8ths with snare on 2 and 4): it found the 2-bar length with full
+confidence. Each repetition is one thin lane; a dot's distance from its
+line is how early or late it was against the click, and its color is how
+closely it matched your own usual timing for that note (grey while a note
+is still being learned).*
+
 **Works with:** Windows today, plus any electronic kit or drum pad that
 sends MIDI over USB. Mac, iPhone/iPad and Android versions are planned.
 
