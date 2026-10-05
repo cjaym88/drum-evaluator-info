@@ -6,6 +6,8 @@ Notable changes to Drum Evaluator, newest first.
 
 ![The standalone metronome in 7/8, grouped 2+2+3](screenshots/2026-10-05-metronome.png)
 
+![Polyrhythm mode: a 4:3:2 polyrhythm on three click tracks](screenshots/2026-10-05-polyrhythm.png)
+
 - **Standalone metronome.** A full metronome that works on its own, no
   kit needed. Set the tempo with buttons, a slider, the arrow keys or tap
   tempo. Use any time signature, add subdivisions from 8ths to
@@ -13,7 +15,15 @@ Notable changes to Drum Evaluator, newest first.
   100%.
 - **Built-in click patterns.** 2/4 through 13/8 (odd meters ready-grouped,
   e.g. 7/8 as 2+2+3 or 3+2+2), swing 8ths and 16ths,
-  son, rumba and bossa nova clave, and 3:2, 4:3 and 2:3 polyrhythms.
+  son, rumba and bossa nova clave, and polyrhythms.
+- **Polyrhythm mode.** Up to four click tracks at once, each spreading
+  its own number of pulses over the bar (3 against 2, 5 against 4, or
+  4:3:2 on three tracks), with its own sound, pitch and volume so you can
+  hear each rhythm. Turn the mode off to go back to the first track.
+- **Pitch for every click sound.** Shift any click up or down by up to an
+  octave, so the four sounds become many.
+- **Open the metronome from the main window**, with the new
+  Metronome... button.
 - **Edit the click step by step.** Click any step to make it an accent,
   normal, soft or silent. Your accents stay when you change the
   subdivision. Tempo and step changes are heard right away;
@@ -28,9 +38,11 @@ Notable changes to Drum Evaluator, newest first.
 - **Plans for Mac, iPhone/iPad and Android.** The app is being organized
   so one shared scoring engine runs on all four platforms, so the same
   playing gets the same score everywhere.
-- **Known issue:** while the click plays, other apps can't use the same
-  sound output (no music or lesson videos alongside). A fix is being
-  worked on.
+- **Fixed: the click no longer takes over your sound output.** Music,
+  lesson videos and screen recorders (like OBS) now work while it plays.
+  If you've calibrated before, calibrate once more: the app reminds you,
+  because the sound now takes a slightly different route to your
+  speakers.
 
 ## 2026-10-01
 

@@ -38,22 +38,25 @@ across the loops. Below: the session summary in plain words.*
   work on next. The full numbers are one click away.
 - **Latency calibration.** A short "hit any pad along with the click" test
   measures your setup's delay, so on-time playing scores as on time.
-- **Sample-accurate click.** The metronome is played directly through your
-  sound card and placed to the exact sample.
+- **Sample-accurate click that shares your audio.** Play music or a
+  lesson video alongside it, or record your screen with sound.
 - **Standalone metronome.** Use it on its own, no kit needed: tap tempo,
   any time signature, subdivisions, swing (0-100%), and built-in
   patterns from 2/4 to 13/8 (odd meters ready-grouped, e.g. 7/8 as
-  2+2+3 or 3+2+2), clave and polyrhythms. Click any step to accent it,
-  soften it or mute it.
+  2+2+3 or 3+2+2), and clave. Click any step to accent it, soften it or
+  mute it. Every sound can be pitched up or down.
+- **Polyrhythms.** Up to four click tracks at once (3 against 2, 5
+  against 4, 4:3:2, ...), each with its own sound, pitch and volume.
 - **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
 
-![The standalone metronome in 7/8, grouped 2+2+3: a bar of steps whose
-height and color show accents, with the step being heard lit up](screenshots/2026-10-05-metronome.png)
+![The metronome in polyrhythm mode: a 4:3:2 polyrhythm, one row of steps
+per click track, with the steps being heard lit up](screenshots/2026-10-05-polyrhythm.png)
 
-*The standalone metronome in 7/8, grouped 2+2+3, with 8th-note
-subdivisions. Taller boxes are louder; the white box is the click being
+*The metronome playing a 4:3:2 polyrhythm: the main track's 2 beats,
+against 3 and 4 evenly spaced pulses on two more tracks, each with its
+own sound. Taller boxes are louder; white boxes are the clicks being
 heard.*
 
 **Works with:** Windows today, plus any electronic kit or drum pad that
@@ -67,15 +70,13 @@ Plans, not promises. Order and scope may change.
 - **Sharper scoring**: fewer false misses at fast tempos, steadiness
   judged per drum against its own feel, and more reliable calibration.
 - **A single 0–100 accuracy score** per session and per drum.
-- **Play alongside other audio**: let music or lesson videos play while
-  the click is running.
 - **Pad "learn" mode**: hit a pad to assign it to a drum, no settings files.
 - **Saved kits**: switch between kits (e.g. a practice pad and a full
   e-kit), each remembering its own setup and calibration.
 
 **Metronome and click**
-- Save your own click patterns, with several bars and meter changes, and
-  use them during scored practice too.
+- Save your own click patterns (including each track's sounds), with
+  several bars and meter changes, and use them during scored practice too.
 - Tempo trainer: speeds up a little every few bars.
 - Gap click: the click drops out for a few bars to test your inner time.
 - Click that follows the pattern: an option for the click to sound on
