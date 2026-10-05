@@ -47,6 +47,11 @@ across the loops. Below: the session summary in plain words.*
   mute it. Every sound can be pitched up or down.
 - **Polyrhythms.** Up to four click tracks at once (3 against 2, 5
   against 4, 4:3:2, ...), each with its own sound, pitch and volume.
+- **Pattern detector.** No pattern file needed: play a groove of 1 to 4
+  bars to the click and keep repeating it. The app works out how long it
+  is, plots every hit on it as you play, and scores how steadily you
+  repeat your own groove, so a laid-back or pushed feel counts as long
+  as it's consistent.
 - **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
@@ -82,9 +87,13 @@ Plans, not promises. Order and scope may change.
 - Click that follows the pattern: an option for the click to sound on
   the groove's own notes instead of a fixed grid.
 
+**Pattern detector**
+- 3-bar patterns (today it finds 1, 2 and 4 bars).
+- Save a detected groove to your pattern list, to play along to later or
+  edit in the groove editor.
+- Optionally tell it the pattern's length before you start.
+
 **Practice and scoring**
-- Free-play mode: just play, and the app learns your groove and scores how
-  consistent you are, with no pattern needed.
 - Practicing time-signature changes (e.g. 4 bars of 4/4, then 2 of 7/8).
 - Remembering your last pattern and settings.
 

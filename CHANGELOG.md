@@ -8,6 +8,16 @@ Notable changes to Drum Evaluator, newest first.
 
 ![Polyrhythm mode: a 4:3:2 polyrhythm on three click tracks](screenshots/2026-10-05-polyrhythm.png)
 
+![The pattern detector after a session: a 2-bar groove found with confidence 1.00, every hit plotted on it, and the summary](screenshots/2026-10-05-pattern-detector.png)
+
+- **Pattern detector.** Play a groove of 1 to 4 bars to the click, no
+  pattern file needed, and keep repeating it. The app works out how many
+  bars it is, shows every hit on a grid of the pattern as you play, and
+  sums up how steady you were against the click and against your own
+  groove, drum by drum. Open it with the new Pattern detector... button.
+- **The metronome starts faster:** about 0.1 s from Start to the first
+  click, down from about 0.35 s.
+
 - **Standalone metronome.** A full metronome that works on its own, no
   kit needed. Set the tempo with buttons, a slider, the arrow keys or tap
   tempo. Use any time signature, add subdivisions from 8ths to
