@@ -93,10 +93,16 @@ Plans, not promises. Order and scope may change.
 **Metronome and click**
 - Save your own click patterns (including each track's sounds), with
   several bars and meter changes, and use them during scored practice too.
-- Tempo trainer: speeds up a little every few bars.
+- Tempo trainer, two ways: change the tempo by a set amount every few
+  bars (up to build speed, or down to slow a fast passage), or go up
+  only once you've played accurately enough for a while.
 - Gap click: the click drops out for a few bars to test your inner time.
 - Click that follows the pattern: an option for the click to sound on
-  the groove's own notes instead of a fixed grid.
+  the groove's own notes instead of a fixed grid, or only on notes you
+  pick.
+- The metronome's finer subdivisions (16th-note triplets, 32nds,
+  quintuplets, ...) during scored practice too.
+- Tempo counted in dotted quarters for 6/8 and 12/8.
 
 **Pattern detector**
 - 3-bar patterns (today it finds 1, 2 and 4 bars).
@@ -104,7 +110,12 @@ Plans, not promises. Order and scope may change.
   edit in the groove editor.
 - Optionally tell it the pattern's length before you start.
 
-**Practice and scoring**
+**Practice and progress**
+- **History view**: your progress on each pattern over time, plus an
+  overview across all of them -- which grooves and drums are weakest,
+  and what's improving.
+- **Play back past sessions**: listen to what you played, optionally
+  with the click over it, to hear where you rushed or dragged.
 - Practicing time-signature changes (e.g. 4 bars of 4/4, then 2 of 7/8).
 - Remembering your last pattern and settings.
 
