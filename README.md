@@ -8,14 +8,17 @@ on, as you play.
 > private for now. This page is for following progress, the roadmap, and
 > giving feedback.
 
-![Drum Evaluator after a play-along session: a timeline with a row per drum,
-each hit shown as a colored dot inside its timing window, "even" or "uneven"
-under each snare note, and a plain-language session summary below](screenshots/2026-10-01.png)
+![Drum Evaluator after a play-along session: the kit picker, a timeline with
+a row per drum and up/down arrows to reorder them, each hit shown as a colored
+dot inside its timing window, "even" or "uneven" under each snare note, and a
+plain-language session summary below](screenshots/2026-10-07-main.png)
 
 *After a 4-loop session on a syncopated groove: each dot is one hit, placed
 left or right of the beat by how early or late it was, and colored by how
 close it landed. Under each snare note: whether its volume stayed even
-across the loops. Below: the session summary in plain words.*
+across the loops. Below: the session summary in plain words. The kit
+picker (top left) switches between saved kits; the arrows next to each
+drum reorder the rows.*
 
 ## What it does today
 
@@ -36,6 +39,14 @@ across the loops. Below: the session summary in plain words.*
 - **Feedback in plain language.** After each session: how it went, your
   timing and each drum in words, which notes weren't even, and one thing to
   work on next. The full numbers are one click away.
+- **Set up your pads by hitting them.** In the Pads window, press Learn
+  next to a drum and hit the pad: done, no settings files. Pads that send
+  a different note for the rim or a hard hit can be given both. Add your
+  own pieces (splash, china, cowbell, a second snare, ...) from a list or
+  by name.
+- **Saved kits.** Name and keep several kits (say, a practice pad and a
+  full e-kit), each with its own pads and calibration, and switch between
+  them from the main window: no recalibrating when you switch back.
 - **Latency calibration.** A short "hit any pad along with the click" test
   measures your setup's delay, so on-time playing scores as on time.
 - **Sample-accurate click that shares your audio.** Play music or a
@@ -51,7 +62,10 @@ across the loops. Below: the session summary in plain words.*
   bars to the click and keep repeating it. The app works out how long it
   is, plots every hit on it as you play, and scores how steadily you
   repeat your own groove, so a laid-back or pushed feel counts as long
-  as it's consistent.
+  as it's consistent. Then **save it as a pattern** to play along to
+  later: fills and stray hits are left out, and your usual dynamics kept.
+- **Room for big kits.** The windows resize, the grids scroll, and you
+  can reorder the drum rows to suit how you read them.
 - **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
@@ -65,15 +79,26 @@ own sound. Taller boxes are louder; white boxes are the clicks being
 heard.*
 
 ![The pattern detector after a session: a 2-bar groove found with confidence 1.00,
-every hit plotted on a grid of the pattern, and the plain-language summary
-below](screenshots/2026-10-05-pattern-detector.png)
+the drums played listed first with every hit plotted on a grid of the pattern,
+pieces without a pad dimmed below, a Save as pattern button, and the
+plain-language summary below](screenshots/2026-10-07-pattern-detector.png)
 
-*The pattern detector after playing a 2-bar groove (snare 16ths, then
-hi-hat 8ths with snare on 2 and 4): it found the 2-bar length with full
-confidence. Each repetition is one thin lane; a dot's distance from its
-line is how early or late it was against the click, and its color is how
-closely it matched your own usual timing for that note (grey while a note
-is still being learned).*
+*The pattern detector after a 2-bar groove: hi-hat 8ths, kick on 1 and 3,
+snare on 2 and 4, and a tom fill to end the second bar. It found the
+2-bar length with full confidence. The drums you played move to the top;
+each repetition is one thin lane; a dot's distance from its line is how
+early or late it was against the click, and its color is how closely it
+matched your own usual timing for that note (grey while a note is still
+being learned). "Save as pattern..." keeps the groove for play-along.*
+
+![The Pads window: every drum with its note numbers, Learn and Clear buttons,
+custom pieces (Splash, Cowbell, Tambourine) with Remove buttons, the last pad
+hit, and the kit picker at the top](screenshots/2026-10-07-pads.png)
+
+*The Pads window, editing a full kit: hit a pad after pressing Learn to
+assign it. "Last hit" shows what any pad is set to (here, the cowbell).
+The kit picker at the top chooses which kit to edit, separately from the
+kit you play with.*
 
 **Works with:** Windows today, plus any electronic kit or drum pad that
 sends MIDI over USB. Mac, iPhone/iPad and Android versions are planned.
@@ -86,9 +111,10 @@ Plans, not promises. Order and scope may change.
 - **Sharper scoring**: fewer false misses at fast tempos, steadiness
   judged per drum against its own feel, and more reliable calibration.
 - **A single 0–100 accuracy score** per session and per drum.
-- **Pad "learn" mode**: hit a pad to assign it to a drum, no settings files.
-- **Saved kits**: switch between kits (e.g. a practice pad and a full
-  e-kit), each remembering its own setup and calibration.
+- **Steadier pattern detection**: judge the pattern's length from all the
+  bars played, so one varied bar can't change the answer.
+- **Easier setup for pads that send two notes** (e.g. one for soft hits,
+  one for hard), so none of their hits go missing.
 
 **Metronome and click**
 - Save your own click patterns (including each track's sounds), with
@@ -106,9 +132,8 @@ Plans, not promises. Order and scope may change.
 
 **Pattern detector**
 - 3-bar patterns (today it finds 1, 2 and 4 bars).
-- Save a detected groove to your pattern list, to play along to later or
-  edit in the groove editor.
 - Optionally tell it the pattern's length before you start.
+- Edit a saved groove in the groove editor.
 
 **Practice and progress**
 - **History view**: your progress on each pattern over time, plus an

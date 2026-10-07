@@ -2,6 +2,42 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-07
+
+![The main window after a session, with the kit picker and row arrows](screenshots/2026-10-07-main.png)
+
+![The Pads window: assign pads by hitting them, with custom pieces](screenshots/2026-10-07-pads.png)
+
+![The pattern detector after a session: the drums played on top, Save as pattern](screenshots/2026-10-07-pattern-detector.png)
+
+![The Calibrate window, showing which kit it measures and when it was last calibrated](screenshots/2026-10-07-calibrate.png)
+
+- **Pads window: set up pads by hitting them.** Press Learn next to a
+  drum and hit the pad. Learn again to add another note for the same
+  drum (a rim, or a pad that sends a different note when hit hard). A
+  note taken from another drum moves, with a message. "Last hit" shows
+  what any pad is set to.
+- **Your own pieces.** Add a splash, china, cowbell, second snare and so
+  on, from a list or by name; remove them again.
+- **Saved kits.** Name your kits (no built-in names) and switch between
+  them in the main window; each keeps its own pads, pieces and
+  calibration, and the status line says when it was last calibrated. In
+  the Pads window: pick which kit to edit, save as a new kit, delete a
+  kit, or reset to a clean start (kick, snare and hi-hat only).
+- **Room for big kits.** The main window and the pattern detector resize,
+  their grids scroll, and up/down arrows reorder the drum rows (saved
+  with the kit).
+- **Pattern detector:**
+  - **Save as pattern**: keep the groove you played as a pattern to play
+    along to; fills and stray hits are left out, your usual dynamics kept.
+  - Every piece of the kit is listed; after a recording, the drums you
+    played move to the top.
+  - "Stop after" counts from your first hit, so a slow start doesn't cut
+    the groove short.
+  - Fixed: the pattern's bars could come out in the wrong order if you
+    rested a bar after the count-in.
+  - Fixed: switching kits now updates its list of drums straight away.
+
 ## 2026-10-05
 
 ![The standalone metronome in 7/8, grouped 2+2+3](screenshots/2026-10-05-metronome.png)
