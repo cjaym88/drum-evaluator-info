@@ -2,6 +2,32 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-11
+
+![Notation view during a session: the groove as drum notation with the playhead on a ghost note](screenshots/2026-10-11-notation.png)
+
+- **Drum notation view.** A Timeline / Notation switch in the main window
+  shows the groove as real drum notation, engraved by Verovio, an
+  open-source music engraving library: x noteheads for cymbals, kick and
+  hi-hat on shared stems, ghost notes in parentheses, accents, triplets,
+  and the "o" over open hi-hats, with the "o"s and accents kept in
+  straight rows. Lines break to fit the window.
+- **Playhead on the notation.** While you play, an orange line moves
+  across the music, touching each note's left edge as it comes due and
+  moving to the next line at a line break.
+- **Any pattern works with any kit.** Pattern files are read the standard
+  way whatever kit you've set up, so re-learning a pad can no longer make
+  a drum vanish from a pattern (this happened with the hi-hat). On a
+  practice pad, an open hi-hat note counts when you hit the hi-hat pad.
+- **Volume checked for every groove.** Notes a drum always plays at the
+  same volume (common in grooves saved from the pattern detector) are now
+  checked for evenness too. Notes stuck at the pad's maximum volume are
+  flagged, because they can't be told apart.
+- **Sturdier settings.** If the kit settings file is damaged, the app
+  still opens, says so, and keeps the damaged file as a backup.
+- Saved grooves keep every drum you played, even if you switch kits
+  before saving.
+
 ## 2026-10-07
 
 ![The main window after a session, with the kit picker and row arrows](screenshots/2026-10-07-main.png)
