@@ -24,18 +24,26 @@ drum reorder the rows.*
 
 - **Play along to a pattern.** Load a groove (a standard `.mid` file,
   e.g. exported from Guitar Pro or a DAW), set the tempo and number of loops,
-  and play along to a count-in and click.
+  and play along to a count-in and click. Any pattern works with any kit:
+  it's reduced to the drums your kit has, and on a practice pad an open
+  hi-hat note counts when you hit the hi-hat pad.
 - **Live feedback on every hit.** Each note is scored as you play: hit,
   missed, or extra. Hits are graded from *tight* to *off* by how far from
   the beat they landed, in milliseconds.
 - **Timeline view.** A one-bar timeline with a row per drum shows where
   each hit landed against where it should have, loop by loop.
+- **Drum notation view.** Switch from the timeline to the groove as real
+  sheet music (engraved by a proper notation engine, not drawn by hand):
+  x noteheads for cymbals, ghost notes in parentheses, accents, triplets,
+  and the "o" over open hi-hats. While you play, a line moves across the
+  music and touches each note as it's due.
 - **Dynamics.** Checks how evenly you play each note of the groove from
   loop to loop, and whether your ghost notes stay quiet and your accents
   stand out. Each note is only compared with its own repeats, so a ghost
   note is judged as a ghost note and an accent as an accent. Works with any
-  pad velocity curve, so you don't need to change your pad's settings.
-  Volume feedback can be switched off per drum (cymbals start off).
+  pad velocity curve, so you don't need to change your pad's settings, and
+  also checks grooves where every hit on a drum is meant to be the same
+  volume. Volume feedback can be switched off per drum (cymbals start off).
 - **Feedback in plain language.** After each session: how it went, your
   timing and each drum in words, which notes weren't even, and one thing to
   work on next. The full numbers are one click away.
@@ -69,6 +77,16 @@ drum reorder the rows.*
 - **Session history.** Every session's results are saved.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
+
+![The main window in Notation view: a one-bar groove engraved as drum notation,
+open hi-hats with a straight row of "o" marks above, snare on 2 and 4 with
+ghost notes in parentheses, and an orange line on the ghost note being
+played](screenshots/2026-10-11-notation.png)
+
+*Notation view during a session: the groove as sheet music, with the open
+hi-hat "o" marks in a straight row and the ghost notes in parentheses.
+The orange line moves across the music as you play, touching the left
+edge of each note as it's due; here it's on the ghost note on "2-a".*
 
 ![The metronome in polyrhythm mode: a 4:3:2 polyrhythm, one row of steps
 per click track, with the steps being heard lit up](screenshots/2026-10-05-polyrhythm.png)
@@ -150,7 +168,9 @@ Plans, not promises. Order and scope may change.
 - A library of common grooves by genre.
 
 **Display**
-- Standard drum notation alongside the timeline.
+- Notation that lights up as you play: each note coloured by how close
+  you hit it, and a practice layout readable from the kit (big current
+  bar, next bar previewed), designed for phones held upright or sideways.
 - Light and dark mode.
 - Simpler, more guided calibration.
 
