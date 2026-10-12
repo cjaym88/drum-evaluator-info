@@ -6,10 +6,15 @@ Notable changes to Drum Evaluator, newest first.
 
 ![The Groove Editor after a recording: the groove found as cells, with the hits played as dots](screenshots/2026-10-12-groove-editor.png)
 
+![The main window after a session: the Built-in / My grooves switch by the pattern picker, the Timeline / Notation switch, and the Groove Editor... button](screenshots/2026-10-12-main-timeline.png)
+
+![The same session in Notation view, the playhead on a ghost note](screenshots/2026-10-12-main-notation.png)
+
 ![The main window: a 4-bar groove on a kit without toms, the tom rows marked "no pad", and the Built-in / My grooves switch](screenshots/2026-10-12-main.png)
 
 - **Groove Editor.** The Pattern detector became the Groove Editor: one
-  place to make and change grooves.
+  place to make and change grooves. In the main window, the "Pattern
+  detector..." button is now "Groove Editor...".
   - Click notes in: each click steps a cell through normal hit, accent,
     ghost note and empty; right-click steps back.
   - Or play them in: Record works like the Pattern detector did, and

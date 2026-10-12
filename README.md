@@ -8,17 +8,20 @@ on, as you play.
 > private for now. This page is for following progress, the roadmap, and
 > giving feedback.
 
-![Drum Evaluator after a play-along session: the kit picker, a timeline with
-a row per drum and up/down arrows to reorder them, each hit shown as a colored
-dot inside its timing window, "even" or "uneven" under each snare note, and a
-plain-language session summary below](screenshots/2026-10-07-main.png)
+![Drum Evaluator after a play-along session: the pattern picker with its
+Built-in / My grooves switch, the kit picker, the Timeline / Notation switch,
+a timeline with a row per drum and up/down arrows to reorder them, each hit
+shown as a colored dot inside its timing window, "even" or "uneven" under
+each snare note, and a plain-language session summary
+below](screenshots/2026-10-12-main-timeline.png)
 
 *After a 4-loop session on a syncopated groove: each dot is one hit, placed
 left or right of the beat by how early or late it was, and colored by how
 close it landed. Under each snare note: whether its volume stayed even
-across the loops. Below: the session summary in plain words. The kit
-picker (top left) switches between saved kits; the arrows next to each
-drum reorder the rows.*
+across the loops. Below: the session summary in plain words. Top left:
+the pattern picker, with a switch between the built-in grooves and your
+own, and the kit picker. The arrows next to each drum reorder the rows;
+"Groove Editor..." (top right) opens the editor.*
 
 ## What it does today
 
@@ -93,9 +96,9 @@ drum reorder the rows.*
 ![The main window in Notation view: a one-bar groove engraved as drum notation,
 open hi-hats with a straight row of "o" marks above, snare on 2 and 4 with
 ghost notes in parentheses, and an orange line on the ghost note being
-played](screenshots/2026-10-11-notation.png)
+played](screenshots/2026-10-12-main-notation.png)
 
-*Notation view during a session: the groove as sheet music, with the open
+*The same session in Notation view: the groove as sheet music, with the open
 hi-hat "o" marks in a straight row and the ghost notes in parentheses.
 The orange line moves across the music as you play, touching the left
 edge of each note as it's due; here it's on the ghost note on "2-a".*
