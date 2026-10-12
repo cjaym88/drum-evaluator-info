@@ -2,6 +2,34 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-12
+
+![The Groove Editor after a recording: the groove found as cells, with the hits played as dots](screenshots/2026-10-12-groove-editor.png)
+
+![The main window: a 4-bar groove on a kit without toms, the tom rows marked "no pad", and the Built-in / My grooves switch](screenshots/2026-10-12-main.png)
+
+- **Groove Editor.** The Pattern detector became the Groove Editor: one
+  place to make and change grooves.
+  - Click notes in: each click steps a cell through normal hit, accent,
+    ghost note and empty; right-click steps back.
+  - Or play them in: Record works like the Pattern detector did, and
+    the groove it finds is ready to edit.
+  - Set the length (1 to 4 bars), tempo and time signature.
+  - You're asked before unsaved changes are lost.
+- **Built-in and My grooves**, listed apart with a switch in both
+  windows. Built-in grooves can't be changed or deleted: saving one makes
+  your own copy, which can keep the same name.
+- **Every drum in a pattern is shown.** Drums your kit has no pad for
+  used to be dropped, which could cut a 4-bar pattern down to 1 bar. Now
+  they're shown, marked "no pad", but not scored, and Start tells you
+  which ones before you play.
+- **Three toms read as three toms.** Patterns using the high, mid and
+  low tom notes (General MIDI 50, 48 and 45) no longer show two of them
+  as the same drum.
+- **Notation fits the window.** The whole groove is drawn to fit, with
+  no scroll bar, and switching to Notation no longer makes the window
+  grow.
+
 ## 2026-10-11
 
 ![Notation view during a session: the groove as drum notation with the playhead on a ghost note](screenshots/2026-10-11-notation.png)

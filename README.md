@@ -24,9 +24,11 @@ drum reorder the rows.*
 
 - **Play along to a pattern.** Load a groove (a standard `.mid` file,
   e.g. exported from Guitar Pro or a DAW), set the tempo and number of loops,
-  and play along to a count-in and click. Any pattern works with any kit:
-  it's reduced to the drums your kit has, and on a practice pad an open
-  hi-hat note counts when you hit the hi-hat pad.
+  and play along to a count-in and click. Built-in grooves and your own
+  are listed separately (a Built-in / My grooves switch). Any pattern
+  works with any kit: drums your kit has no pad for are still shown
+  (marked "no pad") but not scored, and Start tells you which ones; on a
+  practice pad an open hi-hat note counts when you hit the hi-hat pad.
 - **Live feedback on every hit.** Each note is scored as you play: hit,
   missed, or extra. Hits are graded from *tight* to *off* by how far from
   the beat they landed, in milliseconds.
@@ -35,8 +37,9 @@ drum reorder the rows.*
 - **Drum notation view.** Switch from the timeline to the groove as real
   sheet music (engraved by a proper notation engine, not drawn by hand):
   x noteheads for cymbals, ghost notes in parentheses, accents, triplets,
-  and the "o" over open hi-hats. While you play, a line moves across the
-  music and touches each note as it's due.
+  and the "o" over open hi-hats. The whole groove is always in view, no
+  scrolling. While you play, a line moves across the music and touches
+  each note as it's due.
 - **Dynamics.** Checks how evenly you play each note of the groove from
   loop to loop, and whether your ghost notes stay quiet and your accents
   stand out. Each note is only compared with its own repeats, so a ghost
@@ -66,12 +69,21 @@ drum reorder the rows.*
   mute it. Every sound can be pitched up or down.
 - **Polyrhythms.** Up to four click tracks at once (3 against 2, 5
   against 4, 4:3:2, ...), each with its own sound, pitch and volume.
-- **Pattern detector.** No pattern file needed: play a groove of 1 to 4
-  bars to the click and keep repeating it. The app works out how long it
-  is, plots every hit on it as you play, and scores how steadily you
-  repeat your own groove, so a laid-back or pushed feel counts as long
-  as it's consistent. Then **save it as a pattern** to play along to
-  later: fills and stray hits are left out, and your usual dynamics kept.
+- **Groove Editor.** Make and change grooves two ways, on one grid:
+  - **Click them in**: click a cell to add a note, click again for an
+    accent, again for a ghost note, again to clear it (right-click steps
+    back). Set the length (1 to 4 bars), tempo and time signature.
+  - **Play them in**: press Record, play a groove of 1 to 4 bars to the
+    click and keep repeating it. The app works out how long it is, plots
+    every hit as you play, and scores how steadily you repeat your own
+    groove, so a laid-back or pushed feel counts as long as it's
+    consistent. The groove it finds (fills and stray hits left out, your
+    usual dynamics kept) is ready to tidy up by clicking, then save.
+
+  Volumes are ghost note / normal / accent, not numbers, so editing will
+  work the same for acoustic drums later. Built-in grooves are never
+  changed: saving one keeps your version as a copy in My grooves. You're
+  asked before unsaved changes are lost.
 - **Room for big kits.** The windows resize, the grids scroll, and you
   can reorder the drum rows to suit how you read them.
 - **Session history.** Every session's results are saved.
@@ -96,18 +108,19 @@ against 3 and 4 evenly spaced pulses on two more tracks, each with its
 own sound. Taller boxes are louder; white boxes are the clicks being
 heard.*
 
-![The pattern detector after a session: a 2-bar groove found with confidence 1.00,
-the drums played listed first with every hit plotted on a grid of the pattern,
-pieces without a pad dimmed below, a Save as pattern button, and the
-plain-language summary below](screenshots/2026-10-07-pattern-detector.png)
+![The Groove Editor after a recording: a 1-bar groove found, its notes as
+cells on a grid (tall pale cells for hi-hat accents, medium blue for normal
+hits, a small outline for the snare ghost note), the hits you played as
+colored dots at each note, a kick added by clicking, and the summary
+below](screenshots/2026-10-12-groove-editor.png)
 
-*The pattern detector after a 2-bar groove: hi-hat 8ths, kick on 1 and 3,
-snare on 2 and 4, and a tom fill to end the second bar. It found the
-2-bar length with full confidence. The drums you played move to the top;
-each repetition is one thin lane; a dot's distance from its line is how
-early or late it was against the click, and its color is how closely it
-matched your own usual timing for that note (grey while a note is still
-being learned). "Save as pattern..." keeps the groove for play-along.*
+*The Groove Editor just after recording a 1-bar groove: hi-hat 8ths with
+accents on the beats, snare on 2 and 4 with a ghost note on "2-a", kick
+on 1 and "3&". Each note of the groove found is a cell: tall and pale for
+an accent, medium for a normal hit, an outline for a ghost note. The dots
+are the hits you played, one per repetition. A short snare fill played
+only once was left out; the kick on "4&" was added afterwards by
+clicking. Save keeps it in My grooves.*
 
 ![The Pads window: every drum with its note numbers, Learn and Clear buttons,
 custom pieces (Splash, Cowbell, Tambourine) with Remove buttons, the last pad
@@ -148,10 +161,14 @@ Plans, not promises. Order and scope may change.
   quintuplets, ...) during scored practice too.
 - Tempo counted in dotted quarters for 6/8 and 12/8.
 
-**Pattern detector**
-- 3-bar patterns (today it finds 1, 2 and 4 bars).
-- Optionally tell it the pattern's length before you start.
-- Edit a saved groove in the groove editor.
+**Groove Editor**
+- Triplets (8th- and 16th-note triplets) in the grid; today it edits
+  16ths, and triplet notes in a groove are shown but can't be changed.
+- The groove as notation in the editor too.
+- Recording finds 3-bar grooves (today 1, 2 and 4 bars), and optionally
+  you tell it the length before you start.
+- On phones, editing will be done with the phone turned sideways: a
+  bar of 16ths is too narrow to tap accurately upright.
 
 **Practice and progress**
 - **History view**: your progress on each pattern over time, plus an
@@ -163,7 +180,6 @@ Plans, not promises. Order and scope may change.
 - Remembering your last pattern and settings.
 
 **Patterns**
-- A built-in groove editor.
 - Rudiments (rolls, paradiddles, flams, ...).
 - A library of common grooves by genre.
 
