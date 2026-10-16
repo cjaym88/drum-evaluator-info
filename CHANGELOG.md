@@ -2,6 +2,47 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-16
+
+![The practice screen on a phone held sideways, mid-session](screenshots/2026-10-16-phone-practice.png)
+
+![The review screen: score and stars at the top, a popup with one note's loops](screenshots/2026-10-16-phone-review.png)
+
+![The Groove Editor on a phone, with a beat of triplets](screenshots/2026-10-16-phone-editor.png)
+
+![The metronome in dark mode, clicking 8ths](screenshots/2026-10-16-phone-metronome.png)
+
+![The metronome in polyrhythm mode, three tracks](screenshots/2026-10-16-phone-polyrhythm.png)
+
+![The Pads screen, pads already learned shown green with a tick](screenshots/2026-10-16-phone-pads.png)
+
+![The practice screen in a desktop window, with a sidebar and four bars on a line](screenshots/2026-10-16-desktop-practice.png)
+
+- **First design for phones.** A clickable mock-up of the phone app at
+  real iPhone and Android sizes, to settle the layout before the real
+  screens are built. The hits in it come from a pretend drummer. What it
+  settles so far:
+  - **Practice** is sideways on a stand: two bars of notation coloured as
+    you play, the timeline underneath, and one row of controls along the
+    bottom. Grooves that fit stay still; longer ones move on.
+  - **After a session** you go straight to the review: score and stars at
+    the top, every note coloured; tap one for its loops (timing, volume,
+    grade). The full summary is one tap away.
+  - **Groove Editor** sideways, all bars in one row that scrolls, each
+    beat in 16ths, triplets or sextuplets, recording on the same screen.
+  - **Metronome** upright or sideways, with clicks per beat (1 to 8), any
+    time signature, and polyrhythm tracks set from a small menu (beats,
+    clicks per beat, pitch).
+  - **Practice click** can be off, beats, 8ths, triplets or 16ths.
+  - **Pads**: learning one fills the screen so you can read it from the
+    kit; pads already learned are green with a tick.
+  - **Navigation**: five buttons along the bottom (Practice, Metronome,
+    Editor, History, Settings); a sidebar on desktop.
+  - **Colour-blind friendly**: each grade has a shape in the timeline.
+  - **Light and dark**, following your device's setting.
+  - **Desktop**: zoom the music with Ctrl + mouse wheel to fit more bars;
+    a narrow window behaves like a phone.
+
 ## 2026-10-12
 
 ![The Groove Editor after a recording: the groove found as cells, with the hits played as dots](screenshots/2026-10-12-groove-editor.png)

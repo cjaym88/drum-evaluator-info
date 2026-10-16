@@ -137,6 +137,78 @@ kit you play with.*
 **Works with:** Windows today, plus any electronic kit or drum pad that
 sends MIDI over USB. Mac, iPhone/iPad and Android versions are planned.
 
+## Coming to phones: the first design
+
+The app is being rebuilt to run on iPhone, Android and Mac as well as
+Windows. Before the real screens are built, their layout is being worked
+out in a clickable mock-up at real phone sizes, from the small iPhone SE
+to the largest Pro Max. The pictures below come from that mock-up: the
+hits in them are played by a pretend drummer, not scored from a real kit.
+
+- **Practise with the phone sideways on a stand.** Two bars of notation,
+  each note turning the colour of how close you hit it, and the timeline
+  underneath. The controls sit in one row along the bottom, every button
+  big enough to tap from the kit. Grooves that fit on screen stay still;
+  longer ones move on as you play.
+- **Straight to the review when you finish.** Your score and stars sit at
+  the top, with every note of the groove coloured by how it went over all
+  the loops. Tap a note to see each loop: how early or late, how loud,
+  and its grade. "More" opens the full summary in words.
+- **The Groove Editor goes sideways too,** with each beat on its own grid
+  (16ths, triplets or sextuplets) and recording on the same screen.
+- **Metronome upright or sideways:** clicks per beat, any time signature,
+  and polyrhythms with each track's beats, subdivision and pitch set from
+  a small menu.
+- **Set up pads from across the room:** after "Learn", the screen says
+  which pad to hit in big letters, then shows a large tick. Pads already
+  set up are shown green with a tick.
+- **Easy to read for colour-blind players:** every grade has its own
+  shape in the timeline as well as its colour.
+- **Light and dark,** following your phone's own setting.
+- **The same design on a computer,** with a sidebar instead of the bottom
+  buttons. Zoom the music in or out (Ctrl + mouse wheel) to fit more bars.
+
+![The practice screen on an iPhone held sideways: two bars of drum
+notation with the notes played so far coloured green and teal, a blue line
+at the current beat, a timeline underneath with a shape for each hit, and
+one row of controls along the bottom: groove, tempo, loops, click and
+Stop](screenshots/2026-10-16-phone-practice.png)
+
+*Practising on an iPhone held sideways, partway through a 2-bar groove.
+Notes already played are coloured by how close they landed; the blue line
+is where you are. Underneath, each hit's shape and colour give its grade
+(filled circle: tight, ring: good). Along the bottom: groove, tempo,
+loops, click (here 8ths) and Stop.*
+
+![The review screen after a session: the score 91 with five stars and "On
+the beat" at the top, the groove in notation, and a small popup on one
+snare note listing its four loops with timing, grade and
+volume](screenshots/2026-10-16-phone-review.png)
+
+*Straight after playing: the score at the top, every note coloured by how
+it went. Tapping the snare on beat 2 shows each loop: tight and 8 ms late
+but soft in loop 1, on time in loop 2, a little early in loops 3 and 4.*
+
+![The Groove Editor on a phone held sideways: a grid with a row per drum,
+beats 2.1 and 2.2 split into 16ths, beat 2.3 into triplets with a snare
+triplet filled in, and buttons along the top for bars, grid, record and
+save](screenshots/2026-10-16-phone-editor.png)
+
+*The Groove Editor on a phone, with a fill that ends in triplets: tap a
+beat's number to switch it between 16ths, triplets and sextuplets. The
+drum names stay put while the bars scroll sideways.*
+
+<p>
+<img src="screenshots/2026-10-16-phone-metronome.png" width="32%" alt="The metronome in dark mode on an upright iPhone: 120 BPM in large numbers, tempo buttons, a Start button, time signatures 3/4 to 7/8 plus Other, clicks per beat 1 to 8 with 2 selected, and four beat lights with small dots between them">
+<img src="screenshots/2026-10-16-phone-polyrhythm.png" width="32%" alt="The metronome in polyrhythm mode: three tracks of 4, 3 and 2 beats, each a button with its number and a row of dots, and an Add a track button">
+<img src="screenshots/2026-10-16-phone-pads.png" width="32%" alt="The Pads screen: a list of drums, those with a pad shown green with a tick and their note number, the others marked No pad yet, each with a Learn button">
+</p>
+
+*Left: the metronome in dark mode, clicking 8ths (the small dots between
+the beat lights). Middle: a 4:3:2 polyrhythm; tap a track's number to
+set its beats, clicks per beat and pitch. Right: setting up pads, with
+the ones already learned in green.*
+
 ## Roadmap
 
 Plans, not promises. Order and scope may change.
@@ -188,8 +260,8 @@ Plans, not promises. Order and scope may change.
 
 **Display**
 - Notation that lights up as you play: each note coloured by how close
-  you hit it, and a practice layout readable from the kit (big current
-  bar, next bar previewed), designed for phones held upright or sideways.
+  you hit it, in a practice layout readable from the kit with the phone
+  sideways on a stand (first design done: see "Coming to phones" above).
 - Light and dark mode.
 - Simpler, more guided calibration.
 
