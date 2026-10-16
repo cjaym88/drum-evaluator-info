@@ -36,7 +36,9 @@ own, and the kit picker. The arrows next to each drum reorder the rows;
   missed, or extra. Hits are graded from *tight* to *off* by how far from
   the beat they landed, in milliseconds.
 - **Timeline view.** A one-bar timeline with a row per drum shows where
-  each hit landed against where it should have, loop by loop.
+  each hit landed against where it should have, loop by loop. Each beat's
+  grid follows its notes: 16ths, triplets or sextuplets (16th-note
+  triplets).
 - **Drum notation view.** Switch from the timeline to the groove as real
   sheet music (engraved by a proper notation engine, not drawn by hand):
   x noteheads for cymbals, ghost notes in parentheses, accents, triplets,
@@ -50,9 +52,15 @@ own, and the kit picker. The arrows next to each drum reorder the rows;
   pad velocity curve, so you don't need to change your pad's settings, and
   also checks grooves where every hit on a drum is meant to be the same
   volume. Volume feedback can be switched off per drum (cymbals start off).
+- **A score for every session.** A 0–100 score and 0–5 stars at the end
+  of each session: mostly timing (each note earns points by how close it
+  landed; missed and extra notes earn none), plus volume for the drums
+  you've asked it to check. Your personal best is kept for each groove at
+  each tempo: "New best! (was 82)". Sessions stopped early don't count.
 - **Feedback in plain language.** After each session: how it went, your
   timing and each drum in words, which notes weren't even, and one thing to
-  work on next. The full numbers are one click away.
+  work on next. Triplets are named the way drummers count them ("1-trip",
+  "1-let"). The full numbers are one click away.
 - **Set up your pads by hitting them.** In the Pads window, press Learn
   next to a drum and hit the pad: done, no settings files. Pads that send
   a different note for the rim or a hard hit can be given both. Add your
@@ -61,8 +69,19 @@ own, and the kit picker. The arrows next to each drum reorder the rows;
 - **Saved kits.** Name and keep several kits (say, a practice pad and a
   full e-kit), each with its own pads and calibration, and switch between
   them from the main window: no recalibrating when you switch back.
-- **Latency calibration.** A short "hit any pad along with the click" test
-  measures your setup's delay, so on-time playing scores as on time.
+- **Latency calibration, three ways.** Your setup's delay is measured so
+  on-time playing scores as on time. Each method says how far it can be
+  trusted:
+  - **Tap along** to the click at a tempo you choose. It only saves once
+    two takes agree.
+  - **Microphone**: a microphone near the pad measures the delay itself,
+    without your own timing getting in the way (about ±5 ms).
+  - **Your kit's own metronome**: play along to it instead of the app's
+    click; the app lines its grid up with your playing afterwards. Scores
+    are then "timed against your own average" and get their own personal
+    bests.
+
+  Each kit remembers which method it uses.
 - **Sample-accurate click that shares your audio.** Play music or a
   lesson video alongside it, or record your screen with sound.
 - **Standalone metronome.** Use it on its own, no kit needed: tap tempo,
@@ -75,7 +94,9 @@ own, and the kit picker. The arrows next to each drum reorder the rows;
 - **Groove Editor.** Make and change grooves two ways, on one grid:
   - **Click them in**: click a cell to add a note, click again for an
     accent, again for a ghost note, again to clear it (right-click steps
-    back). Set the length (1 to 4 bars), tempo and time signature.
+    back). Each beat has its own grid: click its number to switch it
+    between 16ths, triplets and sextuplets. Set the length (1 to 4 bars),
+    tempo and time signature.
   - **Play them in**: press Record, play a groove of 1 to 4 bars to the
     click and keep repeating it. The app works out how long it is, plots
     every hit as you play, and scores how steadily you repeat your own
@@ -214,9 +235,12 @@ the ones already learned in green.*
 Plans, not promises. Order and scope may change.
 
 **Next up**
-- **Sharper scoring**: fewer false misses at fast tempos, steadiness
-  judged per drum against its own feel, and more reliable calibration.
-- **A single 0–100 accuracy score** per session and per drum.
+- **Sharper scoring**: fewer false misses at fast tempos, and steadiness
+  judged per drum against its own feel.
+- **Calibration, finished off**: a warm-up take before tap-along, feedback
+  that allows for how far the calibration can be trusted, and simpler
+  instructions.
+- **A settings menu**, with your settings kept in one place.
 - **Steadier pattern detection**: judge the pattern's length from all the
   bars played, so one varied bar can't change the answer.
 - **Easier setup for pads that send two notes** (e.g. one for soft hits,
@@ -237,9 +261,8 @@ Plans, not promises. Order and scope may change.
 - Tempo counted in dotted quarters for 6/8 and 12/8.
 
 **Groove Editor**
-- Triplets (8th- and 16th-note triplets) in the grid; today it edits
-  16ths, and triplet notes in a groove are shown but can't be changed.
 - The groove as notation in the editor too.
+- A score for your recordings, like the one for play-along sessions.
 - Recording finds 3-bar grooves (today 1, 2 and 4 bars), and optionally
   you tell it the length before you start.
 - On phones, editing will be done with the phone turned sideways: a
@@ -263,11 +286,18 @@ Plans, not promises. Order and scope may change.
   you hit it, in a practice layout readable from the kit with the phone
   sideways on a stand (first design done: see "Coming to phones" above).
 - Light and dark mode.
-- Simpler, more guided calibration.
+- Calibration inside the main window, instead of a separate one.
 
 **Platforms**
 - Mac, iPhone/iPad and Android versions alongside Windows, all sharing
   one scoring engine, so the same playing gets the same score everywhere.
+  - The first phone design is done (see "Coming to phones" above).
+  - A notation engine that can ship in every app store has been chosen
+    and has passed its first test, drawing grooves with ghost notes,
+    accents, triplets and two voices (hands and feet). Once it passes its
+    remaining checks (phone screens, speed), it replaces today's one.
+- An About screen naming every open-source library and font the app
+  uses.
 
 **Later**
 - Acoustic drums via microphones.

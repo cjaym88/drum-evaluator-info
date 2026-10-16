@@ -43,6 +43,45 @@ Notable changes to Drum Evaluator, newest first.
   - **Desktop**: zoom the music with Ctrl + mouse wheel to fit more bars;
     a narrow window behaves like a phone.
 
+## 2026-10-15
+
+- **Calibrate window: three ways to measure your setup's delay**, each
+  labelled with how far it can be trusted, and each kit remembers which
+  one it uses:
+  - **Tap along** at a tempo you choose (40-99 BPM). No numbers are shown
+    during a take, so they can't sway you, and it only saves once two
+    takes agree within 10 ms. Practising 20+ BPM away from that tempo
+    adds a note to the status line.
+  - **Microphone**: measures the delay with your mic, without your own
+    timing getting in the way (about ±5 ms). It won't save from too few
+    or too uneven measurements.
+  - **Your kit's own metronome**: play along to it instead of the app's
+    click. The app lines its grid up with your playing afterwards, scores
+    the session "timed against your own average", and keeps separate
+    personal bests for it.
+- **Fixed: the click sometimes failed to start** ("Unanticipated host
+  error"), seen after Windows updates. This also broke the microphone
+  calibration.
+- **Fixed: microphone calibration read about 28 ms too high** on some
+  setups, which could make on-time hits score as misses.
+- **Notation for phones: a new notation engine tried out.** It can ship in
+  every app store, and it passed a first test drawing grooves with ghost
+  notes, accents, open hi-hats, triplets, sextuplets and two voices.
+
+## 2026-10-13
+
+- **A score for every session.** A 0-100 score and 0-5 stars at the end
+  of each play-along:
+  - Timing: each note earns points by how close it landed (tight, good,
+    loose, off); missed notes and extra notes earn none.
+  - Volume counts for a fifth of the score, for the drums you've asked it
+    to check. Ticking or unticking a drum's volume afterwards updates the
+    score.
+  - Your personal best for each groove at each tempo: "New best! (was
+    82)", your first score, or your best so far. Sessions stopped early
+    don't count, and a built-in groove and your own copy keep separate
+    bests.
+
 ## 2026-10-12
 
 ![The Groove Editor after a recording: the groove found as cells, with the hits played as dots](screenshots/2026-10-12-groove-editor.png)
@@ -75,6 +114,18 @@ Notable changes to Drum Evaluator, newest first.
 - **Notation fits the window.** The whole groove is drawn to fit, with
   no scroll bar, and switching to Notation no longer makes the window
   grow.
+- **Triplets and sextuplets** (added later the same day):
+  - The timeline's grid follows each beat's notes: 16ths ("1 e & a"),
+    triplets ("1 trip let") or sextuplets, so fast notes no longer merge
+    into one block.
+  - The Groove Editor has a grid per beat: click a beat's number to
+    switch it between 16ths, triplets and sextuplets, or set every beat
+    at once. A beat whose notes wouldn't fit keeps its grid, so no notes
+    are lost.
+  - Notation writes quarter-note triplets across two beats under one
+    bracket.
+  - The summary names triplets the way drummers count them ("1-trip",
+    "1-let").
 
 ## 2026-10-11
 
