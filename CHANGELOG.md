@@ -2,6 +2,124 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-23
+
+![The new app's Practice screen with the Flamacue rudiment, its sticking under the notes](screenshots/2026-10-23-practice.png)
+
+![A session's review: score and stars, notes coloured, one note's loops in a popup](screenshots/2026-10-23-review.png)
+
+![The Groove Editor with its grid menu open: 16ths, 32nds, triplets, sextuplets, quintuplets, septuplets](screenshots/2026-10-23-groove-editor.png)
+
+![The metronome playing 4 against 3](screenshots/2026-10-23-metronome.png)
+
+![The groove picker's Rudiments tab, in PAS order](screenshots/2026-10-23-rudiments.png)
+
+- **The new app is here, on Windows.** Rebuilt from the ground up so the
+  same app can run on Windows, Mac, iPhone/iPad and Android; Windows is
+  done first, and replaces the first version. Every screen is new, built
+  from the phone design: Practice, the review, History, Metronome, Groove
+  Editor, Pads, Kits, Calibrate and Settings, with a sidebar and light or
+  dark colours.
+- **Finer grids in the Groove Editor**: a beat can now be 32nds,
+  quintuplets (5 to a beat) or septuplets (7), as well as 16ths, triplets
+  and sextuplets. Tapping a beat's number opens a menu of the six, with
+  the ones its notes wouldn't fit greyed out. The notation writes them
+  all.
+- **Rudiments in the Percussive Arts Society's order** in the groove
+  picker.
+- **Changing grooves keeps your tempo**, instead of jumping to the
+  tempo saved in the groove's file.
+- **Flams drawn clearly at any window size**: a grace note now always
+  sits right against its own note, never halfway to the note before.
+
+## 2026-10-22
+
+- **Metronome in the new app**, with everything the first version had:
+  tap tempo (and keyboard keys), built-in patterns, any time signature,
+  clicks per beat, swing, steps you tap to accent, soften or mute, the
+  full-screen flash, and polyrhythms of up to 4 tracks, each with its own
+  sound, pitch and volume. Changes are heard at once.
+- **Sticking**: in the Groove Editor, give each note a hand (R or L; a
+  flam's grace its own, "lR"). It's printed under the notes on Practice
+  and in the review. Information only, never scored.
+- **Inverse flams**: one more step in the Groove Editor's tap cycle (hit,
+  accent, ghost, flam, inverse flam, empty). The soft note comes just
+  after the main one; drawn as a small slashed note after it, sticked
+  "Rl", scored like a flam.
+- **Flam feedback**: tap a flam's note in the review to see, loop by loop,
+  if its grace note came on the wrong side of the main note or was
+  missed.
+- **Built-in rudiments**: the first rudiments arrive in the picker's
+  Rudiments tab, each with its sticking.
+- **Groove Editor**:
+  - while you record, every hit appears on the grid as you play: a thin
+    lane per repetition, each dot as early or late as the hit was;
+  - move a drum's row up or down with the arrows by its name;
+  - saving over one of your own grooves asks first;
+  - Record's Stop button works again (it did nothing in the new app's
+    first build).
+- **Tempos are whole numbers** of BPM everywhere.
+- **Review**: a note's popup opens just below the music; Start and Done
+  sit in the same place, bottom left.
+
+## 2026-10-21
+
+- **The new click**: measured on one setup, it holds its timing to about
+  a tenth of a millisecond, against 3-4 ms for the first version's.
+- **The scoring moved over unchanged**: the new app gives the first
+  version's answers on more than a thousand test cases, including every
+  recorded session.
+- **Practice, the review, History, Settings, Pads and Kits** working in
+  the new app on real data. After a session you go straight to its
+  review; a session opened from History shows exact figures too. Your
+  kits, history and grooves come over from the first version (kits are
+  asked to calibrate once more).
+- New kits start with volume feedback off for the kick, as well as the
+  cymbals.
+
+## 2026-10-20
+
+- **Tap-along calibration at 40-120 BPM** (was 40-99), 100 to start with;
+  90-110 gives the most accurate result.
+- **Clearer feedback wording**: the stars give the verdict, so the
+  headline doesn't repeat it; "Try next" is now "Focus", stating the main
+  thing to work on; steadiness is described the same way everywhere.
+- Number boxes only take digits up to their limit.
+- **Fixed**: a pad hit just before the first click could stop the
+  recording from saving; a cut-off MIDI file now gives a clear error.
+
+## 2026-10-19
+
+- **Calibration, simpler and quicker:**
+  - Tap along: join in whenever you're ready; your first 4 hits are a
+    warm-up, then 8 beats are measured. Only the clicks you're meant to
+    hit are played.
+  - Microphone: 8 pad hits and 6 clicks (was 20 and 12), about 15
+    seconds instead of 30.
+  - The methods are listed most accurate first, and a new kit starts on
+    the microphone if one is found.
+  - Calibrated on one audio output and practising on another? The status
+    line reminds you to calibrate again (can be switched off).
+- **Groove Editor**: no "save changes?" prompt when nothing changed (a
+  note tapped in and back out is no change) or the groove is empty.
+
+## 2026-10-17
+
+- **Flams**: one more tap after ghost note makes a flam in the Groove
+  Editor, saved as two notes (a soft grace just before the main one) so
+  other drum software plays it as a flam too. A flam's two notes are
+  matched as a pair and timed by the main note.
+- **Fast playing scored fairly**: close notes on one drum are matched in
+  the order you play them. 16ths at 140 BPM played consistently late now
+  read as late, not as early hits plus a miss and an extra.
+- **Pad double triggers ignored**: a softer hit on the same pad within
+  30 ms.
+- **Landing the downbeat** after the last loop no longer counts as an
+  extra note.
+- **Steadiness judged per drum**, against each drum's own average: a
+  kick that's always slightly ahead of the hi-hat no longer reads as
+  unsteady.
+
 ## 2026-10-16
 
 ![The practice screen on a phone held sideways, mid-session](screenshots/2026-10-16-phone-practice.png)
