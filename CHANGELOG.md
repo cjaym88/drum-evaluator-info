@@ -12,7 +12,7 @@ Notable changes to Drum Evaluator, newest first.
 
 ![The metronome playing 4 against 3](screenshots/2026-10-23-metronome.png)
 
-![The groove picker's Rudiments tab, in PAS order](screenshots/2026-10-23-rudiments.png)
+![The groove picker's Rudiments tab](screenshots/2026-10-23-rudiments.png)
 
 - **The new app is here, on Windows.** Rebuilt from the ground up so the
   same app can run on Windows, Mac, iPhone/iPad and Android; Windows is
@@ -25,8 +25,7 @@ Notable changes to Drum Evaluator, newest first.
   and sextuplets. Tapping a beat's number opens a menu of the six, with
   the ones its notes wouldn't fit greyed out. The notation writes them
   all.
-- **Rudiments in the Percussive Arts Society's order** in the groove
-  picker.
+- **Rudiments** in the groove picker.
 - **Changing grooves keeps your tempo**, instead of jumping to the
   tempo saved in the groove's file.
 - **Flams drawn clearly at any window size**: a grace note now always

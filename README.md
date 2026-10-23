@@ -59,11 +59,10 @@ and Android from one set of code, and Windows is the first one finished.
   sextuplets, 32nds, quintuplets and septuplets, open hi-hats, and the
   sticking under the notes. Bigger or smaller print to suit how far you
   sit from the screen; grooves longer than the screen move on as you play.
-- **Rudiments.** The Rudiments tab lists the built-in rudiments in the
-  Percussive Arts Society's order: single, double and triple stroke rolls,
-  the 5 to 17 stroke rolls, paradiddles and paradiddle-diddles, flams,
-  flam accents, flam taps, flamacues, pataflaflas, Swiss Army triplets and
-  more, each with its sticking.
+- **Rudiments.** The Rudiments tab lists the built-in rudiments: single,
+  double and triple stroke rolls, the 5 to 17 stroke rolls, paradiddles
+  and paradiddle-diddles, flams, flam accents, flam taps, flamacues,
+  pataflaflas, Swiss Army triplets and more, each with its sticking.
 - **Flams scored properly.** A flam's two notes are matched as a pair and
   timed by the main note. Inverse flams (the soft note just after the
   main one) are supported too. After playing, a flam's note says in each
@@ -171,8 +170,7 @@ it.*
 Roll, Triple Stroke Roll, Quads, Double Stroke Roll, 5, 6 and 7 Stroke
 Roll, each 4/4, 1 bar](screenshots/2026-10-23-rudiments.png)
 
-*Choosing a groove: built-in grooves, rudiments (in the Percussive Arts
-Society's order) and your own.*
+*Choosing a groove: built-in grooves, rudiments and your own.*
 
 **Works with:** Windows today, plus any electronic kit or drum pad that
 sends MIDI over USB. Mac, iPhone/iPad and Android versions are next.
