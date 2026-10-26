@@ -24,21 +24,17 @@ loops and the click.*
 
 ## A new app (2026-10-23)
 
-Drum Evaluator has been rebuilt from the ground up. The first version was
-a quick prototype; the new one is built to run on Windows, Mac, iPhone/iPad
-and Android from one set of code, and Windows is the first one finished.
+Drum Evaluator has been rebuilt from the ground up as one app for Windows,
+Mac, iPhone/iPad and Android. Windows is finished; the others are next.
 
-- **Every score is the same as before.** The scoring was moved over first
-  and checked against the old app on more than a thousand test cases,
-  including real recorded sessions, until every answer matched.
-- **A steadier click.** Measured on one setup, the new click holds its
-  timing to about a tenth of a millisecond (the old one wobbled by 3-4 ms).
-- **All new screens**, built from the phone design worked out earlier: a
-  sidebar with Practice, Metronome, Groove Editor, History and Settings,
-  in light or dark.
+- **The same scores as before.** The same playing gets the same score as
+  in the first version.
+- **A steadier click.** On one setup, the click holds its timing to about
+  a tenth of a millisecond (the first version's varied by 3-4 ms).
+- **All new screens:** a sidebar with Practice, Metronome, Groove Editor,
+  History and Settings, in light or dark.
 - **Your kits, history and grooves come with you** from the first version.
-  Kits are asked to calibrate once more, since the new click's timing
-  differs.
+  Each kit needs calibrating once more.
 
 ## What it does today
 
@@ -53,12 +49,12 @@ and Android from one set of code, and Windows is the first one finished.
   missed, or extra, and graded from *tight* to *off* by how far from the
   beat it landed. The notes in the music turn the colour of how close you
   hit them, and the timeline underneath marks each hit where it landed,
-  with its own shape for each grade (easy to read if you're colour-blind).
+  with its own shape for each grade.
 - **Drum notation.** The groove as real sheet music: x noteheads for
   cymbals, ghost notes in parentheses, accents, flams, triplets,
   sextuplets, 32nds, quintuplets and septuplets, open hi-hats, and the
-  sticking under the notes. Bigger or smaller print to suit how far you
-  sit from the screen; grooves longer than the screen move on as you play.
+  sticking under the notes. The print size can be changed, and grooves
+  longer than the screen move on as you play.
 - **Rudiments.** The Rudiments tab lists the built-in rudiments: single,
   double and triple stroke rolls, the 5 to 17 stroke rolls, paradiddles
   and paradiddle-diddles, flams, flam accents, flam taps, flamacues,
@@ -67,10 +63,10 @@ and Android from one set of code, and Windows is the first one finished.
   timed by the main note. Inverse flams (the soft note just after the
   main one) are supported too. After playing, a flam's note says in each
   loop if its grace note came on the wrong side or was missed.
-- **Fast playing scored fairly.** Quick 16ths are matched in the order
-  you play them, so a run played consistently late reads as late, not as
-  a mess of misses. A pad that double-triggers (a faint second hit right
-  after the first) is ignored.
+- **Fast playing.** Quick 16ths are matched in the order you play them:
+  a run played consistently late is scored as late, not as misses. A
+  pad's double-trigger (a faint second hit right after the first) is
+  ignored.
 - **Straight to the review.** When a session ends you see the score and
   stars, every note coloured by how it went over all the loops, and a
   one-line verdict. Tap a note to see each loop: how early or late, how
@@ -80,10 +76,10 @@ and Android from one set of code, and Windows is the first one finished.
   is kept for each groove at each tempo.
 - **Dynamics.** Checks how evenly you play each note from loop to loop,
   and whether ghost notes stay quiet and accents stand out, judged against
-  your own levels, so it works with any pad's velocity curve.
-- **Steadiness judged per drum.** Each drum is compared with its own
-  average, so a kick that's always a touch ahead of the hi-hat (as many
-  great drummers play) doesn't count against you.
+  your own levels.
+- **Steadiness judged per drum.** Each drum's timing is compared with its
+  own average: a kick that's always a touch ahead of the hi-hat doesn't
+  count against you.
 - **History.** Every completed session is kept, with a chart of your
   scores on each groove. Open any past session to see its review again,
   this time with the exact figures.
@@ -94,8 +90,8 @@ and Android from one set of code, and Windows is the first one finished.
     quintuplets or septuplets. Set the length (1 to 4 bars), tempo and
     time signature.
   - **Sticking**: give each note a hand (R or L; a flam's grace its own
-    hand), shown under the notes when you practise. Information only: a
-    pad can't tell which hand hit it.
+    hand), shown under the notes when you practise. Sticking isn't
+    scored.
   - **Play them in**: press Record and keep repeating a groove of 1, 2 or
     4 bars. Every hit appears on the grid as you play, a thin lane per
     repetition, showing how early or late it was. The app works out the
@@ -177,39 +173,33 @@ sends MIDI over USB. Mac, iPhone/iPad and Android versions are next.
 
 ## Coming to phones
 
-The new screens were designed for phones first, in a clickable mock-up at
-real phone sizes, from the small iPhone SE to the largest Pro Max (see the
-2026-10-16 changelog for pictures). On a phone:
+The phone screens are laid out for every size from the small iPhone SE to
+the largest Pro Max (pictures in the 2026-10-16 changelog). On a phone:
 
 - **Practise with the phone sideways on a stand**, every button big enough
   to tap from the kit.
-- **The Groove Editor and recording go sideways too**: a bar of 16ths is
-  too narrow to tap accurately upright.
+- **The Groove Editor and recording go sideways too.**
 - **The metronome works upright or sideways.**
 - **Light and dark**, following your phone's own setting.
 
 ## Roadmap
 
-Plans, not promises. Order and scope may change.
-
 **Next up**
-- **Mac**, then **iPhone/iPad** and **Android**, all sharing the same
-  scoring, so the same playing gets the same score everywhere. Phones
-  will need special care with flams, so a grace note always reads as its
-  own note's on a small screen.
+- **Mac**, then **iPhone/iPad** and **Android**, with the same scoring
+  on every platform, and flams drawn clearly in the notation on small
+  screens.
 - **A test version to share**: an installable Windows app for a few
   testers to try.
 - **Easier setup for pads that send two notes** (e.g. one for soft hits,
-  one for hard), so none of their hits go missing.
+  one for hard).
 - **Simpler calibration instructions.**
 
 **Practice and progress**
-- **Hear a pattern**: play a groove or rudiment back, so you know how it
-  should sound before you try it.
+- **Hear a pattern**: play a groove or rudiment back before you try it.
 - **History overview**: across all your grooves, which ones and which
   drums are weakest, and what's improving.
 - **Play back past sessions**: listen to what you played, optionally with
-  the click over it, to hear where you rushed or dragged.
+  the click over it.
 - **Tempo trainer**, two ways: change the tempo by a set amount every few
   bars, or go up only once you've played accurately enough for a while.
 - Practicing time-signature changes (e.g. 4 bars of 4/4, then 2 of 7/8).
@@ -217,7 +207,7 @@ Plans, not promises. Order and scope may change.
 **Metronome and click**
 - Save your own click patterns, with several bars and meter changes, and
   use them during scored practice too.
-- Gap click: the click drops out for a few bars to test your inner time.
+- Gap click: the click drops out for a few bars, then comes back.
 - Click that follows the pattern: the click sounds on the groove's own
   notes, or only on notes you pick.
 - The metronome's finer subdivisions (sextuplets, 32nds, quintuplets,
@@ -228,12 +218,11 @@ Plans, not promises. Order and scope may change.
 - The groove as notation in the editor too.
 - A score for your recordings, like the one for play-along sessions.
 - Recording finds 3-bar grooves, and optionally you tell it the length
-  before you start; the length judged from all the bars played, so one
-  varied bar can't change the answer.
+  before you start; the length worked out from all the bars played.
 
 **Patterns**
-- The drag rudiments (drags, ratamacues, Lesson 25, ...): the app first
-  needs to write and score a drag's two grace notes.
+- The drag rudiments (drags, ratamacues, Lesson 25, ...), with a drag's
+  two grace notes shown and scored.
 - A library of common grooves by genre.
 
 **Later**
