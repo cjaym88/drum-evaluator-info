@@ -33,8 +33,6 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
   a tenth of a millisecond (the first version's varied by 3-4 ms).
 - **All new screens:** a sidebar with Practice, Metronome, Groove Editor,
   History and Settings, in light or dark.
-- **Your kits, history and grooves come with you** from the first version.
-  Each kit needs calibrating once more.
 
 ## What it does today
 
@@ -42,7 +40,9 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
   e.g. exported from Guitar Pro or a DAW), or one of the built-in grooves
   and rudiments, set the tempo and number of loops, and play along to a
   count-in (clicks or spoken) and click (off, beats, 8ths, triplets or
-  16ths). Changing grooves keeps the tempo you've set. Any pattern works
+  16ths). Built-in grooves include rock beats, funk, shuffle, swing,
+  disco, punk and four on the floor. Changing grooves keeps the tempo
+  you've set. Any pattern works
   with any kit: drums your kit has no pad for are still shown but not
   scored, and Start tells you which ones.
 - **Live feedback on every hit.** Each note is scored as you play: hit,
@@ -50,11 +50,20 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
   beat it landed. The notes in the music turn the colour of how close you
   hit them, and the timeline underneath marks each hit where it landed,
   with its own shape for each grade.
+- **Listen.** Hear a groove played with real drum sounds at the tempo
+  you've set, with the click if you want it, until you press Stop; the
+  cursor follows along. Each drum has its own volume (tap its name), and
+  so does the click.
 - **Drum notation.** The groove as real sheet music: x noteheads for
   cymbals, ghost notes in parentheses, accents, flams, triplets,
   sextuplets, 32nds, quintuplets and septuplets, open hi-hats, and the
-  sticking under the notes. The print size can be changed, and grooves
-  longer than the screen move on as you play.
+  sticking under the notes. The print size can be changed. Grooves longer
+  than the screen move on as you play, and the ‹ › arrows (or the Left
+  and Right keys) show the rest.
+- **Any time signature, even within a groove.** 6/8, 9/8 and 12/8 are
+  written and counted in groups of three 8ths; 7/8 as 2+2+3. Each bar of
+  a groove can have its own time signature (three bars of 4/4 and one of
+  7/8, say), and the click, count and notation follow each bar.
 - **Rudiments.** The Rudiments tab lists the built-in rudiments: single,
   double and triple stroke rolls, the 5 to 17 stroke rolls, paradiddles
   and paradiddle-diddles, flams, flam accents, flam taps, flamacues,
@@ -87,19 +96,26 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
   - **Tap them in**: tap a cell for a hit, again for an accent, then a
     ghost note, a flam, an inverse flam, then empty. Each beat has its own
     grid: tap its number to choose 16ths, 32nds, triplets, sextuplets,
-    quintuplets or septuplets. Set the length (1 to 4 bars), tempo and
-    time signature.
+    quintuplets or septuplets. Set the length (1 to 4 bars) and tempo,
+    and the time signature: for the whole groove, or tap a bar's first
+    beat to give that bar its own.
+  - **Listen** to the groove as it is: a line moves across the grid and
+    each note pulses as it sounds. With Follow Grid on, the grid scrolls
+    along.
+  - **Auto-sort** puts the drums with notes in the top rows, in their
+    order on the staff; the arrows by each name move a row by hand.
   - **Sticking**: give each note a hand (R or L; a flam's grace its own
     hand), shown under the notes when you practise. Sticking isn't
     scored.
   - **Play them in**: press Record and keep repeating a groove of 1, 2 or
     4 bars. Every hit appears on the grid as you play, a thin lane per
     repetition, showing how early or late it was. The app works out the
-    groove's length and keeps your usual dynamics, ready to tidy up and
-    save.
+    groove's length from everything you played and keeps your usual
+    dynamics, ready to tidy up and save.
 
-  Built-in grooves are never changed: saving one keeps your version in
-  Your grooves. You're asked before unsaved changes are lost, and before
+  A groove's name can have any punctuation ("7/4 Groove"). Built-in
+  grooves are never changed: saving one keeps your version in Your
+  grooves. You're asked before unsaved changes are lost, and before
   saving over one of your own grooves.
 - **Standalone metronome.** Tap tempo, any time signature, 1 to 8 clicks
   per beat, swing, built-in patterns (odd meters ready-grouped, clave),
@@ -108,8 +124,9 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
 - **Polyrhythms.** Up to four click tracks at once (3 against 2, 5
   against 4, 4:3:2, ...), each with its own sound, pitch and volume.
 - **Set up your pads by hitting them.** Press Learn and hit the pad; the
-  screen says which drum in big letters, readable from the kit. Pads that
-  send a different note for the rim can be given both. Add your own
+  screen says which drum in big letters, readable from the kit. A pad
+  that sends a different note for the rim, or when hit hard, can be
+  given both. Add your own
   pieces (splash, china, cowbell, a second snare, ...).
 - **Saved kits.** Keep several kits (say, a practice pad and a full
   e-kit), each with its own pads, tolerance and calibration, and switch
@@ -129,6 +146,8 @@ Mac, iPhone/iPad and Android. Windows is finished; the others are next.
   record your screen with sound.
 - **Runs entirely on your computer.** No account, no internet connection,
   nothing uploaded.
+- **About and credits**: every library, font and sound the app is made
+  with, each with its licence.
 
 ![The review screen after a session: a score of 93 with four stars and "On
 the beat · fairly steady" at the top, a one-bar groove in notation with
@@ -168,6 +187,26 @@ Roll, each 4/4, 1 bar](screenshots/2026-10-23-rudiments.png)
 
 *Choosing a groove: built-in grooves, rudiments and your own.*
 
+![Practice with a four-bar groove whose last bar is in 7/8: bars 2 to 4
+in notation, the 7/8 bar's hi-hats beamed 2+2+3, the timeline underneath,
+and "Bars 2-4 of 4" between the ‹ › arrows](screenshots/2026-10-27-practice-7-8.png)
+
+*A groove that ends with a bar of 7/8. The arrows by the music size
+buttons step through a groove that doesn't fit on one screen.*
+
+![The Groove Editor on bar 4, marked "4.1 7/8": its beats grouped 2+2+3,
+the rows sorted Crash, Hi-hat, Snare, Kick](screenshots/2026-10-27-groove-editor-7-8.png)
+
+*The same groove in the Groove Editor: bar 4's header shows its time
+signature, and Auto-sort has put the drums in staff order.*
+
+![The Groove Editor's menu for bar 2: the bar's time signature at the top,
+then beat 2.1's grids, the ones its notes wouldn't fit greyed
+out](screenshots/2026-10-27-groove-editor-bar-menu.png)
+
+*Tapping a bar's first beat: that bar's time signature, and the beat's
+grid.*
+
 **Works with:** Windows today, plus any electronic kit or drum pad that
 sends MIDI over USB. Mac, iPhone/iPad and Android versions are next.
 
@@ -188,21 +227,21 @@ the largest Pro Max (pictures in the 2026-10-16 changelog). On a phone:
 - **Mac**, then **iPhone/iPad** and **Android**, with the same scoring
   on every platform, and flams drawn clearly in the notation on small
   screens.
-- **A test version to share**: an installable Windows app for a few
-  testers to try.
+- **A test version for a few testers** on Windows: ready, going out
+  soon.
 - **Easier setup for pads that send two notes** (e.g. one for soft hits,
   one for hard).
 - **Simpler calibration instructions.**
 
 **Practice and progress**
-- **Hear a pattern**: play a groove or rudiment back before you try it.
 - **History overview**: across all your grooves, which ones and which
   drums are weakest, and what's improving.
 - **Play back past sessions**: listen to what you played, optionally with
   the click over it.
 - **Tempo trainer**, two ways: change the tempo by a set amount every few
   bars, or go up only once you've played accurately enough for a while.
-- Practicing time-signature changes (e.g. 4 bars of 4/4, then 2 of 7/8).
+- Time-signature changes longer than a 4-bar groove (e.g. 4 bars of 4/4,
+  then 2 of 7/8).
 
 **Metronome and click**
 - Save your own click patterns, with several bars and meter changes, and
@@ -218,7 +257,7 @@ the largest Pro Max (pictures in the 2026-10-16 changelog). On a phone:
 - The groove as notation in the editor too.
 - A score for your recordings, like the one for play-along sessions.
 - Recording finds 3-bar grooves, and optionally you tell it the length
-  before you start; the length worked out from all the bars played.
+  before you start.
 
 **Patterns**
 - The drag rudiments (drags, ratamacues, Lesson 25, ...), with a drag's
@@ -227,8 +266,7 @@ the largest Pro Max (pictures in the 2026-10-16 changelog). On a phone:
 
 **Later**
 - Acoustic drums via microphones.
-- An About screen crediting every open-source library and font the app
-  uses, then polished, installable apps for all four platforms.
+- Polished, installable apps for all four platforms.
 
 See [CHANGELOG.md](CHANGELOG.md) for what's changed recently.
 

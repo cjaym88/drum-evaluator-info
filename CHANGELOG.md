@@ -2,6 +2,58 @@
 
 Notable changes to Drum Evaluator, newest first.
 
+## 2026-10-27
+
+![Practice with a groove whose last bar is in 7/8, showing bars 2-4](screenshots/2026-10-27-practice-7-8.png)
+
+![The Groove Editor on bar 4, marked "4.1 7/8", rows auto-sorted](screenshots/2026-10-27-groove-editor-7-8.png)
+
+![The Groove Editor's bar menu: the bar's time signature and the beat's grid](screenshots/2026-10-27-groove-editor-bar-menu.png)
+
+![About and credits: version, copyright and the beta tester licence](screenshots/2026-10-27-about.png)
+
+- **Listen**: a Listen button on Practice and in the Groove Editor plays
+  the groove with real drum sounds, on a loop, until you press Stop. Tap
+  a drum's name for its volume; the click's volume is in the Click menu.
+  Changes are heard straight away.
+- **A different time signature per bar**: in the Groove Editor, tap a
+  bar's first beat to set that bar's time signature. The notation shows
+  each change, and Practice clicks and counts each bar in its own. A bar
+  can only get shorter if none of its notes would fall off its end.
+- **Listen in the Groove Editor**: a line moves across the grid and each
+  note pulses as it sounds; **Follow Grid** scrolls the grid along.
+- **Auto-sort** in the Groove Editor: the drums with notes go to the top
+  rows, in their order on the staff.
+- **About and credits** (Settings): the version, the copyright, the beta
+  tester licence, and every library, font and sound the app is made
+  with, each with its licence.
+- **A test version for testers** on Windows is ready.
+- The timeline's rows are shaded every other drum (a setting).
+- **Fixed**: the second floor tom is drawn on the line above the kick.
+
+## 2026-10-26
+
+- **The app's icon**: a metronome mascot.
+- **6/8, 9/8 and 12/8** are written and counted in groups of three 8ths,
+  in the Groove Editor and the notation; **7/8** is grouped 2+2+3 and
+  **5/8** 2+3.
+- **Long grooves on Practice**: the ‹ › arrows (or the Left and Right
+  keys) show the bars that don't fit on the screen; the review has them
+  too.
+- **Groove names** can have any punctuation, such as "7/4 Groove".
+- **Recording finds the groove's length** from everything you played, not
+  from the last bar alone.
+- **Pads**: help for percussion pads that send a different note when hit
+  hard (Learn them once soft and once hard).
+- In a narrow window, Practice's buttons wrap onto a second row.
+
+## 2026-10-24
+
+- **More built-in grooves**: Rock Beat (and with crash), Rock With Snare
+  Fill, Basic Funk Groove, Basic Shuffle, Basic Swing, Disco, Punk, 4 On
+  The Floor (and with crash), Syncopated Snare and Fast Kick Doubles.
+- Shorter instructions on Calibrate and in Help.
+
 ## 2026-10-23
 
 ![The new app's Practice screen with the Flamacue rudiment, its sticking under the notes](screenshots/2026-10-23-practice.png)
@@ -14,9 +66,9 @@ Notable changes to Drum Evaluator, newest first.
 
 ![The groove picker's Rudiments tab](screenshots/2026-10-23-rudiments.png)
 
-- **The new app is here, on Windows.** Rebuilt from the ground up so the
-  same app can run on Windows, Mac, iPhone/iPad and Android; Windows is
-  done first, and replaces the first version. Every screen is new, built
+- **The new app is here, on Windows.** Rebuilt from the ground up as one
+  app for Windows, Mac, iPhone/iPad and Android; Windows comes first, and
+  replaces the first version. Every screen is new, built
   from the phone design: Practice, the review, History, Metronome, Groove
   Editor, Pads, Kits, Calibrate and Settings, with a sidebar and light or
   dark colours.
@@ -80,8 +132,8 @@ Notable changes to Drum Evaluator, newest first.
 
 - **Tap-along calibration at 40-120 BPM** (was 40-99), 100 to start with;
   90-110 gives the most accurate result.
-- **Clearer feedback wording**: the stars give the verdict, so the
-  headline doesn't repeat it; "Try next" is now "Focus", stating the main
+- **Clearer feedback wording**: the headline no longer repeats the
+  stars' verdict; "Try next" is now "Focus", stating the main
   thing to work on; steadiness is described the same way everywhere.
 - Number boxes only take digits up to their limit.
 - **Fixed**: a pad hit just before the first click could stop the
@@ -151,8 +203,7 @@ Notable changes to Drum Evaluator, newest first.
     time signature, and polyrhythm tracks set from a small menu (beats,
     clicks per beat, pitch).
   - **Practice click** can be off, beats, 8ths, triplets or 16ths.
-  - **Pads**: learning one fills the screen so you can read it from the
-    kit; pads already learned are green with a tick.
+  - **Pads**: learning one fills the screen, readable from the kit; pads already learned are green with a tick.
   - **Navigation**: five buttons along the bottom (Practice, Metronome,
     Editor, History, Settings); a sidebar on desktop.
   - **Colour-blind friendly**: each grade has a shape in the timeline.
@@ -264,7 +315,7 @@ Notable changes to Drum Evaluator, newest first.
 - **Volume checked for every groove.** Notes a drum always plays at the
   same volume (common in grooves saved from the pattern detector) are now
   checked for evenness too. Notes stuck at the pad's maximum volume are
-  flagged, because they can't be told apart.
+  flagged.
 - **Sturdier settings.** If the kit settings file is damaged, the app
   still opens, says so, and keeps the damaged file as a backup.
 - Saved grooves keep every drum you played, even if you switch kits
@@ -332,10 +383,9 @@ Notable changes to Drum Evaluator, newest first.
   son, rumba and bossa nova clave, and polyrhythms.
 - **Polyrhythm mode.** Up to four click tracks at once, each spreading
   its own number of pulses over the bar (3 against 2, 5 against 4, or
-  4:3:2 on three tracks), with its own sound, pitch and volume so you can
-  hear each rhythm. Turn the mode off to go back to the first track.
+  4:3:2 on three tracks), with its own sound, pitch and volume. Turn the mode off to go back to the first track.
 - **Pitch for every click sound.** Shift any click up or down by up to an
-  octave, so the four sounds become many.
+  octave.
 - **Open the metronome from the main window**, with the new
   Metronome... button.
 - **Edit the click step by step.** Click any step to make it an accent,
@@ -349,14 +399,11 @@ Notable changes to Drum Evaluator, newest first.
   found two improvements now on the roadmap: judging each drum's
   steadiness against its own feel (pros naturally play kick and snare a
   touch ahead of the hi-hat), and fewer false misses at fast tempos.
-- **Plans for Mac, iPhone/iPad and Android.** The app is being organized
-  so one shared scoring engine runs on all four platforms, so the same
-  playing gets the same score everywhere.
+- **Plans for Mac, iPhone/iPad and Android**, with one shared scoring
+  engine: the same playing gets the same score everywhere.
 - **Fixed: the click no longer takes over your sound output.** Music,
   lesson videos and screen recorders (like OBS) now work while it plays.
-  If you've calibrated before, calibrate once more: the app reminds you,
-  because the sound now takes a slightly different route to your
-  speakers.
+  If you've calibrated before, calibrate once more: the app reminds you.
 
 ## 2026-10-01
 
@@ -374,8 +421,7 @@ Notable changes to Drum Evaluator, newest first.
   ("snare ghost note on 2-a"), and one "Try next" suggestion. The detailed
   numbers are behind a **Show details** button.
 - **Volume feedback per drum.** A checkbox on each drum's row turns its
-  volume feedback on or off. Cymbals start off, since their volume rarely
-  matters and would clutter the feedback.
+  volume feedback on or off. Cymbals start off.
 - **New click engine.** The metronome now plays directly through the sound
   card, timed to the exact sample. The click's own delay is compensated
   automatically, so calibration only has to measure the player and the pad.
